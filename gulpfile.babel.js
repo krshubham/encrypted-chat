@@ -1,11 +1,11 @@
-import gulp from 'gulp';
-import uglify from 'gulp-uglify';
-import nodemon from 'gulp-nodemon';
-import browserify from 'browserify';
-import babel from 'babelify';
-import source from 'vinyl-source-stream';
-import buffer from 'vinyl-buffer';
-import childProcess from 'child_process';
+const gulp = require('gulp');
+const uglify = require('gulp-uglify');
+const nodemon = require('nodemon');
+const browserify = require('browserify');
+const babel = require('babelify');
+const source = require('vinyl-source-stream');
+const buffer = require('vinyl-buffer');
+const childProcess = require('child_process');
 
 let spawn = childProcess.spawn;
 
